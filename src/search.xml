@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search">
+    <test name="search-for-java">
+        <parameter name="keyword" value="java"/>
+        <classes>
+            <class name="com.search.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="search-for-python">
+        <parameter name="keyword" value="python"/>
+        <classes>
+            <class name="com.search.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="search-for-appium">
+        <parameter name="keyword" value="appium"/>
+        <classes>
+            <class name="com.search.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="search-for-webdriver">
+        <parameter name="keyword" value="webdriver"/>
+        <classes>
+            <class name="com.search.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="search-for-restassured">
+        <parameter name="keyword" value="restassured"/>
+        <classes>
+            <class name="com.search.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
