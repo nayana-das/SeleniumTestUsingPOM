@@ -31,7 +31,7 @@ public class BaseTest {
         }
 
         if(System.getProperty("HUB_HOST")!=null){
-            host=System.getProperty("HUB_HOST")
+            host=System.getProperty("HUB_HOST");
         }
 
         String completeUrl="http://"+host+":4444/wd/hub";
