@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="search">
+<suite name="search" parallel="tests">
     <test name="search-for-java">
         <parameter name="keyword" value="java"/>
         <classes>
